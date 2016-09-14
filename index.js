@@ -22,7 +22,9 @@ let ε = () => {
 		'text-align' : 'center'
 	});
 	let γ = $('<h1 id="JS"></h1>').css({ 'color': '#FFF' });
-	α.append("<img src='https://goo.gl/7PjTPy'></img>").append(γ);
+	α.append("<img src='https://goo.gl/7PjTPy'></img>")
+	 .append(γ)
+	 .append("<img src='https://goo.gl/oa2t1I'></img>");
 	$('body').prepend(α);
 };
 
